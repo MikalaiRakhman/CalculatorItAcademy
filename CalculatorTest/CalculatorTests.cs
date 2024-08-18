@@ -36,7 +36,7 @@ namespace CalculatorTest
             int result = _calculator.Sum(a, b);
 
             // Assert
-            Assert.False(result > int.MaxValue);
+            Assert.False(result > 0);
         }
     }
 }
